@@ -1,0 +1,7 @@
+@function rem($pixels, $base: 16) {
+  @return ($pixels / $base) * 1rem;
+}
+
+@function theme-color($color, $amount) {
+  @return lighten($color, $amount);
+}

@@ -1,0 +1,19 @@
+@use 'variables';
+@use 'mixins';
+@use 'functions';
+
+.header {
+  height: 60px;
+  background: variables.$primary-color;
+
+  @include mixins.flex-center;
+}
+
+body {
+  font-size: functions.rem(18);
+  color: variables.$text-color;
+}
+
+.alert {
+  background: functions.theme-color(variables.$primary-color, 20%);
+}

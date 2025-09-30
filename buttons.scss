@@ -1,0 +1,12 @@
+button {
+  background-color: $primary-color;
+  color: $text-color;
+  font-family: $font-stack;
+  padding: $spacing-medium $spacing-large;
+  border: none;
+  border-radius: 4px;
+
+  &:hover {
+    background-color: $secondary-color;
+  }
+}
